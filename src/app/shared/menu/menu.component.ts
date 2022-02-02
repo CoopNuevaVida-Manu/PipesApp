@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import {MenuItem} from 'primeng/api';
 
 
@@ -27,7 +28,8 @@ export class MenuComponent implements OnInit {
       },
       {
         label: 'Pipe Personalizados',
-        icon: 'pi pi-cog'
+        icon: 'pi pi-cog',
+        routerLink: 'ordenar'
       }
     ];
 
